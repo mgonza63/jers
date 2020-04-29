@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.css';
-import Nav from './components/Nav'
-import Section1 from './components/SectionOne'
-import Section2 from './components/SectionTwoTitle'
+import Nav from './components/Nav';
+import SectionOne from './components/SectionOne';
+import SectionTwo from './components/SectionTwoTitle';
+import SectionTwoCards from './components/SectionTwoCards';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Nav></Nav>
-      <Section1></Section1>
-      <Section2></Section2>
+      <SectionOne></SectionOne>
+      <SectionTwo></SectionTwo>
+      <SectionTwoCards></SectionTwoCards>
+      <Footer></Footer>
     </div>
   );
 }
