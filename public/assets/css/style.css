@@ -126,6 +126,9 @@ h1 {
 .card h5 {
     text-align: center;
 }
+h6 {
+    font-weight: bolder;
+}
 
 footer {
 background-image: linear-gradient( #4b998c,#287566) ;

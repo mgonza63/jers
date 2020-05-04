@@ -1,19 +1,26 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 function Nav() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img class="logo" src="assets/img/logo.jpg"></img></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <span className="navbar-brand"><Link to="/"><img className="logo" src="assets/img/logo.jpg" alt="logo"></img></Link></span>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Shop</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="navbar-nav">
+                    <Link to="/about" className="nav-item nav-link active">
+                        About<span className="sr-only">(current)</span>
+                    </Link>
+                    <Link to="/shop" className="nav-item nav-link">
+                        Shop
+                    </Link>
+                    <Link to="/contact" className="nav-item nav-link">
+                        Contact
+                    </Link>
+                    {/* <span className="nav-item nav-link disabled" tabindex="-1" aria-disabled="true">Blog</span> */}
                 </div>
             </div>
         </nav>

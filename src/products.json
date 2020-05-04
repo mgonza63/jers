@@ -1,8 +1,26 @@
 [
     {
-        "id": 1,
-        "name": "JERS Clasica",
-        "price": "$299",
-        "Top": true
+        "id": "JERS-C1-01",
+        "price": "250.00",
+        "url": "https://jers.netlify.app/shop",
+        "description":"Playera JERS Clasica de color Rosa",
+        "image": "./assets/img/product/male2.jpg",
+        "name": "JERS Clasica"
+    },
+    {
+        "id": "JERS-C1-02",
+        "price": "200.00",
+        "data-item-url": "Crop top JERS con logo de color Rojo",
+        "data-item-description":"https://jers.netlify.app/shop",
+        "image": "./assets/img/product/JERScrop.jpg",
+        "data-item-name": "JERS Crop Top"
+    },
+    {
+        "id": "JERS-C1-03",
+        "price": "280.00",
+        "data-item-url": "https://jers.netlify.app/shop",
+        "data-item-description":"Playera Jers con nombre repetido Naranja en el pecho",
+        "image": "./assets/img/product/male3.jpg",
+        "data-item-name": "JERS Cool"
     }
 ]

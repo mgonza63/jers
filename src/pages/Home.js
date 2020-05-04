@@ -1,9 +1,16 @@
 import React from 'react'
+import SectionOne from '../components/SectionOne';
+import SectionTwo from '../components/SectionTwo';
 
-export default function Home() {
+import Footer from '../components/Footer';
+
+const Home = () => {
     return (
-        <div>
-            <h1>Welcome Home</h1>
+        <div className='Home'>
+            <SectionOne />
+            <SectionTwo />
+            <Footer />
         </div>
     )
 }
+export default Home;
