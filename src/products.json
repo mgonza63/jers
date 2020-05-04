@@ -1,26 +1,82 @@
 [
     {
-        "id": "JERS-C1-01",
+        "id": "jers-c01-01",
+
         "price": "250.00",
         "url": "https://jers.netlify.app/shop",
         "description":"Playera JERS Clasica de color Rosa",
         "image": "./assets/img/product/male2.jpg",
-        "name": "JERS Clasica"
+        "name": "JERS Clasica",
+        "firstRow": true
     },
     {
-        "id": "JERS-C1-02",
+        "id": "jers-c01-02",
+
         "price": "200.00",
-        "data-item-url": "Crop top JERS con logo de color Rojo",
-        "data-item-description":"https://jers.netlify.app/shop",
+        "url": "https://jers.netlify.app/shop",
+        "description":"Crop top JERS con logo de color Rojo",
         "image": "./assets/img/product/JERScrop.jpg",
-        "data-item-name": "JERS Crop Top"
+        "name": "JERS Crop Top",
+        "firstRow": true
     },
     {
-        "id": "JERS-C1-03",
+        "id": "jers-c01-03",
+
         "price": "280.00",
-        "data-item-url": "https://jers.netlify.app/shop",
-        "data-item-description":"Playera Jers con nombre repetido Naranja en el pecho",
+        "url": "https://jers.netlify.app/shop",
+        "description":"Playera Jers con nombre repetido Naranja en el pecho",
         "image": "./assets/img/product/male3.jpg",
-        "data-item-name": "JERS Cool"
+        "name": "JERS Cool",
+        "firstRow": true
+    },
+    {
+        "id": "jers-c01-04",
+
+        "price": "280.00",
+        "url": "https://jers.netlify.app/shop",
+        "description":"Playera Jers con nombre repetido Naranja en el pecho",
+        "image": "./assets/img/product/male3.jpg",
+        "name": "JERS Cool",
+        "firstRow": true
+    },
+    {
+        "id": "jers-c01-05",
+
+        "price": "250.00",
+        "url": "https://jers.netlify.app/shop",
+        "description":"Playera JERS Clasica de color Rosa",
+        "image": "./assets/img/product/male2.jpg",
+        "name": "JERS Clasica",
+        "secondRow": true
+    },
+    {
+        "id": "jers-c01-06",
+
+        "price": "250.00",
+        "url": "https://jers.netlify.app/shop",
+        "description":"Playera JERS Clasica de color Rosa",
+        "image": "./assets/img/product/male2.jpg",
+        "name": "JERS Clasica",
+        "secondRow": true
+    },
+    {
+        "id": "jers-c01-07",
+
+        "price": "250.00",
+        "url": "https://jers.netlify.app/shop",
+        "description":"Playera JERS Clasica de color Rosa",
+        "image": "./assets/img/product/male2.jpg",
+        "name": "JERS Clasica",
+        "secondRow": true
+    },
+    {
+        "id": "jers-c01-08",
+
+        "price": "250.00",
+        "url": "https://jers.netlify.app/shop",
+        "description":"Playera JERS Clasica de color Rosa",
+        "image": "./assets/img/product/male2.jpg",
+        "name": "JERS Clasica",
+        "secondRow": true
     }
 ]

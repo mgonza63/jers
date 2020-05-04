@@ -9,23 +9,44 @@ class Shop extends React.Component {
     state = {
         products: products
     }
+    
     render() {
+        const firstRow = this.state.products.filter(product => product.firstRow)
+        const secondRow = this.state.products.filter(product => product.secondRow)
         return (
             <div className="container" id="shop">
-                <div class="card-deck">
-                  {
-                    this.state.products.map((product) => {
-                        return (
-                            <ShopCard
-                                name={product.name}
-                                image={product.image}
-                                price={product.price} >
+                <h2 className="row d-flex justify-content-center" >Nuestra Colleccion</h2>
+                <div className="row">
+                    {
+                        firstRow.map((product) => {
+                            
+                            return (
+                                <ShopCard
+                                    name={product.name}
+                                    image={product.image}
+                                    price={product.price} >
 
 
-                            </ShopCard>
-                            )
-                        })
-                    }
+                                </ShopCard>
+                                )
+                            })
+                        }
+                </div>
+                <div className="row">
+                {
+                        secondRow.map((product) => {
+                            
+                            return (
+                                <ShopCard
+                                    name={product.name}
+                                    image={product.image}
+                                    price={product.price} >
+
+
+                                </ShopCard>
+                                )
+                            })
+                        }
                 </div> 
             </div>
             
