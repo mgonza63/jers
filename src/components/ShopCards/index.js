@@ -1,29 +1,65 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { Modal, Button } from 'react-bootstrap'
+import Shop from '../../pages/Shop';
 
+function ShopModal(props) {
+    return (
+        <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+        >
+        <Modal.Header closeButton>
+            <Modal.Title id="contained-modal-title-vcenter">
+            Modal heading
+            </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+            <h4>Centered Modal</h4>
+            <p>
+            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+            consectetur ac, vestibulum at eros.
+            </p>
+        </Modal.Body>
+        <Modal.Footer>
+            <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+        </Modal>
+    )
+}
 
 export default function ShopCard(props) {
 
+    const [show, setShow] = useState(false);
+
+
+
     return (
-        <div className="col-md-3">
-            <div class="card">
-                <img src={props.image} class="card-img-top" alt={props.id} />
-                <div class="card-body">
-                    <h5 class="card-title">{props.name}</h5>
+        <div className="col-md-3" onClick={() => setShow(true)} >
+            <div className="card" >
+                <img src={props.image} className="card-img-top" alt={props.id} />
+                <div className="card-body">
+                    <h5 className="card-title">{props.name}</h5>
                     <h6 className="d-flex justify-content-center">$ {props.price}</h6>
                 </div>
-                <button class="snipcart-add-item"
+                <button className="snipcart-add-item"
                     data-item-id={props.name}
                     data-item-price={props.price}
                     data-item-url={props.url}
                     data-item-description={props.description}
                     data-item-image={props.image} 
                     data-item-name={props.name}>
-                    <svg class="bi bi-bag-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"/>
-                    </svg>
+                        add to cart
                 </button>
+
             </div>
+            <ShopModal
+            show={show}
+            onHide={() => setShow(false)}></ShopModal>
         </div>
+
     )
 }
 
@@ -31,16 +67,63 @@ export default function ShopCard(props) {
 
 
 
+// function ShopModal(props) {
+//     return (
+//         <Modal
+//         {...props}
+//         size="lg"
+//         aria-labelledby="contained-modal-title-vcenter"
+//         centered
+//         >
+//         <Modal.Header closeButton>
+//             <Modal.Title id="contained-modal-title-vcenter">
+//             Modal heading
+//             </Modal.Title>
+//         </Modal.Header>
+//         <Modal.Body>
+//             <h4>Centered Modal</h4>
+//             <p>
+//             Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+//             dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+//             consectetur ac, vestibulum at eros.
+//             </p>
+//         </Modal.Body>
+//         <Modal.Footer>
+//             <Button onClick={props.onHide}>Close</Button>
+//         </Modal.Footer>
+//         </Modal>
+//     )
+// }
 
-// class ShopCard extends React.Component{
-//     constructor(props)  {
-//         super(props)
-//         this.state(props)
-//         this.state = {
-//             products: products
-//         }
-//     }
-//     render() {
+// export default function ShopCard(props) {
 
-//     }
+//     const [show, setShow] = useState(false);
+
+
+
+//     return (
+//         <div className="col-md-3" onClick={() => setShow(true)} >
+//             <div className="card" >
+//                 <img src={props.image} className="card-img-top" alt={props.id} />
+//                 <div className="card-body">
+//                     <h5 className="card-title">{props.name}</h5>
+//                     <h6 className="d-flex justify-content-center">$ {props.price}</h6>
+//                 </div>
+//                 <button className="snipcart-add-item"
+//                     data-item-id={props.name}
+//                     data-item-price={props.price}
+//                     data-item-url={props.url}
+//                     data-item-description={props.description}
+//                     data-item-image={props.image} 
+//                     data-item-name={props.name}>
+//                         add to cart
+//                 </button>
+
+//             </div>
+//             <ShopModal
+//             show={show}
+//             onHide={() => setShow(false)}></ShopModal>
+//         </div>
+
+//     )
 // }

@@ -22,6 +22,7 @@ class Shop extends React.Component {
                             
                             return (
                                 <ShopCard
+                                    key={product.id}
                                     name={product.name}
                                     image={product.image}
                                     price={product.price} >
@@ -38,6 +39,7 @@ class Shop extends React.Component {
                             
                             return (
                                 <ShopCard
+                                    key={product.id}
                                     name={product.name}
                                     image={product.image}
                                     price={product.price} >
