@@ -11,15 +11,15 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link to="/about" className="nav-item nav-link active">
+                    {/* <Link to="/about" className="nav-item nav-link active">
                         About<span className="sr-only">(current)</span>
-                    </Link>
+                    </Link> */}
                     <Link to="/shop" className="nav-item nav-link">
                         Shop
                     </Link>
-                    <Link to="/contact" className="nav-item nav-link">
+                    {/* <Link to="/contact" className="nav-item nav-link">
                         Contact
-                    </Link>
+                    </Link> */}
                     {/* <span className="nav-item nav-link disabled" tabindex="-1" aria-disabled="true">Blog</span> */}
                 </div>
             </div>

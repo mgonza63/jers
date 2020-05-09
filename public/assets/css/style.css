@@ -13,7 +13,7 @@
     background-position: fixed; */
 
     /* Third BG */
-    background-image: url(../img/bg-img2.jpg);
+    background-image: url(../img/bg-img2-compressor.jpg);
     background-size: cover;
 }
 h1 {
@@ -111,7 +111,7 @@ h1 {
     padding-bottom: 20px;
 
 }
-#section2 h2 {
+h2 {
     padding: 20px;
     text-decoration: underline;
     color: rgb(38, 43, 42);
@@ -120,6 +120,7 @@ h1 {
     padding: 5px;
     margin-top: 10px;
     border: none;
+    margin-bottom: 10px;
     transition: all 0.3s cubic-bezier(.25,.8,.25,1)
 }
 .card:hover {
@@ -132,20 +133,14 @@ h6 {
 }
 
 footer {
-background-image: linear-gradient( #4b998c,#287566) ;
+background-color: #4b998c;
 min-height: 200px;
 
 }
 
 footer h3, i, h5 {
-    color: white;
+    color: rgb(228, 228, 228);
 }
 i {
-    padding-left: 15px;
-}
-footer h5 {
-    padding-left: 35px;
-}
-.footer-el {
-    padding-top: 30px;
+   margin-right: 10px;
 }
