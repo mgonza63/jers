@@ -10,8 +10,8 @@ export default function index() {
                 </div>
                 <div class="col-md-4 footer-el">
                     <h3>Visitanos</h3>
-                    <a href="https://www.instagram.com/jersmx/"><i class="fab fa-instagram fa-2x"></i></a>
-                    <i class="fab fa-facebook-square fa-2x"></i>
+                    <a href="https://www.instagram.com/jersmx/" target="blank"><i class="fab fa-instagram fa-2x" id="icons"></i></a>
+                    <a href="https://www.facebook.com/Jersmx/" target="blank"><i class="fab fa-facebook-square fa-2x" id="icons"></i></a>
 
                 </div>
                 <div class="col-md-4 footer-el">

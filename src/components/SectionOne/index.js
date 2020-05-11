@@ -17,7 +17,7 @@ function SectionOne() {
             <p>CREA TU ESTILO.</p>
             <div class="media">
                 <ul>
-                    <li>Facebook</li>
+                    <li><a href="https://www.facebook.com/Jersmx/" target="blank">Facebook</a></li>
                     <li><a href="https://www.instagram.com/jersmx/" target="blank">Instagram</a></li>
                 </ul>
             </div>
