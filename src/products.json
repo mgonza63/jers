@@ -1,7 +1,7 @@
 [
     {
         "id": "jers-c01-01",
-        "price": "250.00",
+        "price": "240.00",
         "url": "https://jers.netlify.app/shop",
         "description":"Playera JERS Clasica de color Rosa",
         "image": "./assets/img/product/male2-compressor.jpg",
@@ -10,7 +10,7 @@
     },
     {
         "id": "jers-c01-02",
-        "price": "200.00",
+        "price": "240.00",
         "url": "https://jers.netlify.app/shop",
         "description":"Crop top JERS con logo de color Rojo",
         "image": "./assets/img/product/JERScrop-compressor.jpg",
@@ -19,7 +19,7 @@
     },
     {
         "id": "jers-c01-03",
-        "price": "280.00",
+        "price": "240.00",
         "url": "https://jers.netlify.app/shop",
         "description":"Playera Jers con nombre repetido Naranja en el pecho",
         "image": "./assets/img/product/male3-compressor.jpg",
@@ -28,7 +28,7 @@
     },
     {
         "id": "jers-c01-04",
-        "price": "280.00",
+        "price": "240.00",
         "url": "https://jers.netlify.app/shop",
         "description":"Playera JERS con double tipografia en verde",
         "image": "./assets/img/product/jers-male4-compressor.jpg",
@@ -37,7 +37,7 @@
     },
     {
         "id": "jers-c01-05",
-        "price": "250.00",
+        "price": "240.00",
         "url": "https://jers.netlify.app/shop",
         "description":"Playera con logo JERS en naranja",
         "image": "./assets/img/product/male5-compressor.jpg",
@@ -46,7 +46,7 @@
     },
     {
         "id": "jers-c01-06",
-        "price": "250.00",
+        "price": "240.00",
         "url": "https://jers.netlify.app/shop",
         "description":"Playera con estilo Artesanal",
         "image": "./assets/img/product/male6-compressor.png",
