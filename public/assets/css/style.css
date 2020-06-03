@@ -13,7 +13,7 @@
     background-position: fixed; */
 
     /* Third BG */
-    background-image: url(../img/bg-img2-compressor.jpg);
+    background-image: url(../img/bw-bg2.jpeg);
     background-size: cover;
 }
 h1 {
@@ -72,10 +72,10 @@ h1 {
   
   @keyframes glow {
     from {
-        text-shadow: 0 0 20px #227e88;
+        text-shadow: 0 0 20px #2d3131;
       }
       to {
-        text-shadow: 0 0 30px #a4b5bd, 0 0 10px #a5d0d4;
+        text-shadow: 0 0 30px #a4b5bd, 0 0 10px #484c4d;
     }
   }
 
@@ -108,7 +108,14 @@ h1 {
     .rect-group, .rect-group2{
       display: none;
     }
+    #section1 {
+        background-image: url('../img/bw-bg.jpg');
+    }
   }
+
+@media only screen and (max-width: 930px) { 
+
+}
 #section2 {
     /* border-top: 10px solid rgb(199, 182, 182);
     border-bottom: 10px solid rgb(199, 182, 182); */
