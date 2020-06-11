@@ -13,7 +13,7 @@ class Shop extends React.Component {
                 "price": "250.00",
                 "url": "https://jers.netlify.app/shop",
                 "description":"Playera JERS Clasica de color Rosa",
-                "image": "./assets/img/product/male2-compressor.jpg",
+                "image": "./assets/img/product/jers-003-pink.jpg",
                 "name": "JERS Clasica",
             },
             {
@@ -62,40 +62,25 @@ class Shop extends React.Component {
         const firstRow = this.state.products.filter(product => product.firstRow)
         const secondRow = this.state.products.filter(product => product.secondRow)
         return (
-            <div className="container" id="shop">
-                <h2 className="row d-flex justify-content-center" >Nuestra Colleccion</h2>
-                <h4 className="row d-flex justify-content-center lead"><a href="https://www.instagram.com/jersmx/" target="_blank">Mandanos un mensaje en Instagram para Comprar</a></h4>
+            <div className="container">
+                <h2 className="row d-flex justify-content-center">Nuestras Collecciones</h2>
+                <h4 className="row d-flex lead"><a href="https://www.instagram.com/jersmx/" target="_blank">Mandanos un mensaje en Instagram para Comprar</a></h4>
+                <h4 className="row shop-sub">Camisas</h4>
                 <div className="row">
-                    {
-                        firstRow.map((product) => {
-                            
-                            return (
-                                <ShopCard
-                                    key={product.id}
-                                    name={product.name}
-                                    image={product.image}
-                                    price={product.price} >
-                                </ShopCard>
-                                )
-                            })
-                        }
+                    <div class="card product">
+                        <img class="card-img" src="../assets/img/product/jers-001-green.jpeg" alt="Card image" />
+                    </div>
+                    <div class="card product">
+                        <img class="card-img" src="../assets/img/product/jers-003-pink.jpg" alt="Card image" />
+                    </div>
+                    <div class="card product">
+                        <img class="card-img" src="../assets/img/product/jers-001-green.jpeg" alt="Card image" />
+                    </div>
+                    <div class="card product">
+                        <img class="card-img" src="../assets/img/product/jers-001-green.jpeg" alt="Card image" />
+                    </div>
                 </div>
-                <div className="row">
-                {
-                        secondRow.map((product) => {
-                            
-                            return (
-                                <ShopCard
-                                    key={product.id}
-                                    name={product.name}
-                                    image={product.image}
-                                    price={product.price} >
-                                </ShopCard>
-                                )
-                            })
-                        }
-                </div>
-                <div hidden id="snipcart" data-api-key="ZTJkY2JkN2MtNDBiYi00MjdhLTk0MzQtMmUwODI3ZWRhZTdmNjM3MjQwMDUwNjA4OTExOTE1" data-currency="mxn"></div> 
+                <h4 className="row shop-sub">Sudaderas</h4>
             </div>
             
         )

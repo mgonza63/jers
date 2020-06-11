@@ -1,17 +1,17 @@
 import React from 'react';
-
+import './style.css'
 
 export default function ShopCard(props) {
 
 
     return (
-        <div className="col-md-3" >
-            <div className="card" >
-                <img src={props.image} className="card-img-top" alt={props.unique} />
-                <div className="card-body">
-                    <h5 className="card-title">{props.name}</h5>
-                    <h6 className="d-flex justify-content-center">$ {props.price}</h6>
-                </div>
+        <div className="card product" >
+                <img src={props.image} className="card-img" alt={props.unique} />
+        </div>
+
+    )
+}
+
                 {/* <button className="snipcart-add-item"
                     data-item-id={props.image}
                     data-item-price={props.price}
@@ -23,9 +23,3 @@ export default function ShopCard(props) {
                     data-item-custom1-options='Pequeña|Mediana|Grande'>
                         add to cart
                 </button> */}
-
-            </div>
-        </div>
-
-    )
-}

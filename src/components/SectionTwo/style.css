@@ -1,0 +1,34 @@
+
+.new {
+    width: 300px;
+    margin: 5px;
+    overflow: hidden;
+}
+.card-img {
+    transition: transform .75s ease;
+}
+.card-img:hover {
+    transform: scale(1.1);
+
+}
+@media only screen and (max-width: 600px) {
+    .new {
+        width: 200px;
+    
+    }
+}
+@media only screen and (min-width: 992px) {
+    .new {
+        width: 400px;
+    
+    }
+}
+@keyframes zoom{
+    from {
+        scale: 1;
+    }
+    to {
+        scale: 1.2;
+    }
+}
+/* opacity 0 visibility hidden */
