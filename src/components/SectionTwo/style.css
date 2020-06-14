@@ -23,6 +23,24 @@
     
     }
 }
+@media only screen and (max-width: 769px) {
+    .new {
+        width: 250px;
+    
+    }
+}
+@media only screen and (max-width: 523px) {
+    .new {
+        width: 180px;
+    
+    }
+}
+@media only screen and (max-width: 381px) {
+    .new {
+        width: 150px;
+    
+    }
+}
 @keyframes zoom{
     from {
         scale: 1;
