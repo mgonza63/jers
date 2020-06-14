@@ -145,8 +145,9 @@ h6 {
 }
 
 footer {
-background-color: #242928;
-min-height: 200px;
+    background-color: #242928;
+    min-height: 200px;
+
 
 }
 
@@ -160,7 +161,7 @@ i {
     margin-bottom: 20px;
 }
 .shop-sub {
-    padding-top: 2rem;
+    padding-top: 5rem;
     padding-bottom: 2rem;
 
 }

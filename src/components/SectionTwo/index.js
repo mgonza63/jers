@@ -9,16 +9,16 @@ function SectionTwoTitle() {
             </div>
             <div className="row d-flex justify-content-center">
                 <div class="card new">
-                    <img class="card-img" src="../assets/img/product/jers-001-green.jpeg" alt="Card image" />
+                    <img class="card-img" src="../assets/img/product/jers-007-blue.jpeg" alt="Card image" />
                 </div>
                 <div class="card new">
-                    <img class="card-img" src="../assets/img/product/jers-001-green.jpeg" alt="Card image" />
+                    <img class="card-img" src="../assets/img/product/jers-013-w-black.jpg" alt="Card image" />
                 </div>
                 <div class="card new">
-                    <img class="card-img" src="../assets/img/product/jers-001-green.jpeg" alt="Card image" />
+                    <img class="card-img" src="../assets/img/product/jers-006-w-black.jpg" alt="Card image" />
                 </div>
                 <div class="card new">
-                    <img class="card-img" src="../assets/img/product/jers-001-green.jpeg" alt="Card image" />
+                    <img class="card-img" src="../assets/img/product/jers-007-grey.jpeg" alt="Card image" />
                 </div>
             </div>
         </div>

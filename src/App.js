@@ -7,7 +7,6 @@ import Footer from './components/Footer'
 
 // Pages
 import Home from './pages/Home.js'
-import About from './pages/About.js'
 import Shop from './pages/Shop.js'
 
 
@@ -18,7 +17,6 @@ function App() {
         <Nav />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/about' component={About} />
           <Route path='/shop' component={Shop} />
           {/* <Route path='/contact' component={Contact} /> */}
         </Switch>

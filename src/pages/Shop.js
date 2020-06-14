@@ -2,7 +2,7 @@ import React from 'react'
 
 import products from '../products.json'
 import ShopCard from '../components/ShopCards'
-
+import StickyBar from '../components/StickyBar'
 
 class Shop extends React.Component {
     state = {
@@ -63,9 +63,11 @@ class Shop extends React.Component {
         const secondRow = this.state.products.filter(product => product.secondRow)
         return (
             <div className="container shop">
-                <h2 className="row d-flex justify-content-center">Nuestras Collecciones</h2>
-                <h4 className="row d-flex lead"><a href="https://www.instagram.com/jersmx/" target="_blank">Mandanos un mensaje en Instagram para Comprar</a></h4>
-                <h3 className="row shop-sub">Camisas de Hombre</h3>
+                {/* <StickyBar /> */}
+                <h2 className="row">Nuestras Collecciones</h2>
+                <h4 className="row d-flex lead">
+                <a href="https://www.instagram.com/jersmx/" target="_blank">Mandanos un mensaje en Instagram para Comprar</a></h4>
+                <h3 className="row shop-sub" id="camisas">Camisas de Hombre</h3>
                 <div className="row">
                     <div class="card product">
                         <img class="card-img" src="../assets/img/product/jers-001-green.jpg" alt="Card image" />
@@ -104,7 +106,7 @@ class Shop extends React.Component {
                         <img class="card-img" src="../assets/img/product/jers-012-black.jpg" alt="Card image" />
                     </div>
                 </div>
-                <h3 className="row shop-sub">Blusas</h3>
+                <h3 className="row shop-sub" id="blusas">Blusas</h3>
                 <div className="row">
                     <div class="card product">
                         <img class="card-img" src="../assets/img/product/jers-002.jpg" alt="Card image" />
@@ -122,7 +124,7 @@ class Shop extends React.Component {
                         <img class="card-img" src="../assets/img/product/jers-013-w-black.jpg" alt="Card image" />
                     </div>
                 </div>
-                <h3 className="row shop-sub">Sudaderas</h3>
+                <h3 className="row shop-sub" id="sudaderas">Sudaderas</h3>
                 <div className="row">
                     <div class="card product">
                         <img class="card-img" src="../assets/img/product/jers-001-sweat.jpg" alt="Card image" />
