@@ -15,3 +15,21 @@
     
     }
 }
+@media only screen and (max-width: 769px) {
+    .product {
+        width: 250px;
+    
+    }
+}
+@media only screen and (max-width: 523px) {
+    .product {
+        width: 180px;
+    
+    }
+}
+@media only screen and (max-width: 381px) {
+    .product {
+        width: 150px;
+    
+    }
+}
