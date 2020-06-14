@@ -159,4 +159,20 @@ i {
 #icons {
     margin-bottom: 20px;
 }
+.shop-sub {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+@media (min-width: 992px) {
+    .shop{
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .shop{
+      max-width: 1140px;
+    }
+  }
 
