@@ -4,11 +4,33 @@
     margin: 5px;
     overflow: hidden;
 }
-.card-img {
-    transition: transform .75s ease;
+.product {
+    width: 300px;
+    overflow: hidden;
 }
-.card-img:hover {
-    transform: scale(1.1);
+.button {
+    width: 100%;
+}
+.product img {
+    transition: all .5s ease;
+}
+.product img:hover {
+    filter: brightness(0.7);
+}
+.product img:hover ~ .buy-button{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-48px);
+    z-index: 100;
+
+
+}
+.buy-button:hover {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-50px);
+    z-index: 100;
+
 
 }
 @media only screen and (max-width: 600px) {
@@ -43,10 +65,10 @@
 }
 @keyframes zoom{
     from {
-        scale: 1;
+        transform: scale(1);
     }
     to {
-        scale: 1.2;
+        transform: scale(1.2);
     }
 }
 /* opacity 0 visibility hidden */

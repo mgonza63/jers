@@ -11,8 +11,15 @@ class Shop extends React.Component {
         }
     }
     render() {
+        const maleShirts = this.state.products.filter(product => product.maleShirt)
+
         return (
-                <ProductList products={products} />
+            <div className="container shop">
+                <div className="row d-flex justify-content-center">
+                    <h2>Nuestras Collecciones</h2>
+                </div>
+                <ProductList products={maleShirts} />
+            </div>
         )
     }
 }

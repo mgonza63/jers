@@ -134,7 +134,6 @@ h2 {
     margin-top: 10px;
     border: none;
     margin-bottom: 10px;
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1)
 }
 
 .card h5 {
