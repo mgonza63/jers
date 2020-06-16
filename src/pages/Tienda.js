@@ -19,7 +19,9 @@ class Shop extends React.Component {
                     <h2>Nuestras Collecciones</h2>
                 </div>
                 <ProductList products={maleShirts} />
+
             </div>
+            
         )
     }
 }
