@@ -2,7 +2,7 @@
     {
         "id": "jers-c01-01",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera JERS con doble tipografía verde",
         "image": "../assets/img/product/jers-001-green.jpg",
         "name": "JERS Tipografía Verde",
@@ -12,7 +12,7 @@
     {
         "id": "jers-c01-02",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera JERS Clásica de color Rosa",
         "image": "../assets/img/product/jers-003-pink.jpg",
         "name": "JERS Clásica Rosa",
@@ -22,7 +22,7 @@
     {
         "id": "jers-c01-03",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera JERS Clásica de color Roja",
         "image": "../assets/img/product/jers-003-red.jpeg",
         "name": "JERS Clásica Roja",
@@ -32,7 +32,7 @@
     {
         "id": "jers-c01-04",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera JERS con nombre Naranja en el pecho",
         "image": "../assets/img/product/jers-005-yellow.jpg",
         "name": "JERS Naranja",
@@ -42,7 +42,7 @@
     {
         "id": "jers-c01-05",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera JERS Clásica de color Blanca",
         "image": "../assets/img/product/jers-003-white.jpg",
         "name": "JERS Clásica Blanca",
@@ -52,7 +52,7 @@
     {
         "id": "jers-c01-06",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera JERS con nombre repetido Naranja en el pecho",
         "image": "../assets/img/product/jers-004-yellow.jpeg",
         "name": "JERS JERS JERS",
@@ -62,7 +62,7 @@
     {
         "id": "jers-c01-06",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera con estilo Artesanal Azul",
         "image": "../assets/img/product/jers-007-blue.jpeg",
         "name": "Tinta Artesanal Azul",
@@ -72,7 +72,7 @@
     {
         "id": "jers-c01-06",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera con estilo Artesanal Gris",
         "image": "../assets/img/product/jers-007-grey.jpeg",
         "name": "Tinta Artesanal Gris",
@@ -82,7 +82,7 @@
     {
         "id": "jers-c01-06",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera con estilo Artesanal Roja",
         "image": "../assets/img/product/jers-007-red.jpg",
         "name": "Tinta Artesanal Roja",
@@ -92,7 +92,7 @@
     {
         "id": "jers-c01-06",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera con logo chico Negra",
         "image": "../assets/img/product/jers-009-black.jpg",
         "name": "JERS Logo Bordado",
@@ -102,7 +102,7 @@
     {
         "id": "jers-c01-06",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera JERS Azul y Roja",
         "image": "../assets/img/product/jers-010-blue.jpg",
         "name": "JERS Azul y Roja",
@@ -112,7 +112,7 @@
     {
         "id": "jers-c01-06",
         "price": "240.00",
-        "url": "https://jers.netlify.app/",
+        "url": "https://jers.netlify.app/tienda",
         "description":"Playera JERS Negra con tipografía blanca",
         "image": "../assets/img/product/jers-012-black.jpg",
         "name": "JERS Bold",
