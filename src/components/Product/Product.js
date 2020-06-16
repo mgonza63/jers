@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ProductDefinition from './ProductDefinition'
 
 const Product = (props) => {

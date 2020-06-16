@@ -1,17 +1,18 @@
-import ProductDefinition from './ProductDefinition'
+import React from 'react';
 
-const Product = (props) => {
+const ProductDefinition = (props) => {
   return (
-    <div className="product">
-      <div className="product__information">
-        <h2 className="product__title">{props.product.name}</h2>
-        <img src={props.product.image} alt="product image" className="product__image" />
-        <p className="product__description">{props.product.description}</p>
-        <ProductDefinition product={props.product} />
-      </div>
-      <img src={props.product.image} alt="product image" className="product__image" />
-    </div>
+    <button className="snipcart-add-item product-definition"
+      data-item-id={props.product.id}
+      data-item-name={props.product.name}
+      data-item-price={props.product.price}
+      data-item-image={props.product.image}
+      data-item-custom2-options="4x6|6x9[+7.50]|9x12[+15.00]|20x20[+40.00]"
+      data-item-custom2-name="size"
+      data-item-url="https://snipcart-nextjs-seo.netlify.com/">
+      Add to cart ${props.product.price}
+    </button>
   )
 }
 
-export default Product;
+export default ProductDefinition;

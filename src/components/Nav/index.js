@@ -9,7 +9,12 @@ function Nav() {
                     <Link to="/shop" className="nav-item nav-link">
                         Shop
                     </Link>
-                </div>         
+                </div>     
+                <div className="navbar-nav">
+                    <Link to="/tienda" className="nav-item nav-link">
+                        Tienda
+                    </Link>
+                </div>            
         </nav>
     )
 }

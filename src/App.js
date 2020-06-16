@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 // Pages
 import Home from './pages/Home.js'
 import Shop from './pages/Shop.js'
-
+import Tienda from './pages/Tienda'
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/shop' component={Shop} />
+          <Route path='/tienda' component={Tienda} />
+
           {/* <Route path='/contact' component={Contact} /> */}
         </Switch>
       </div>
