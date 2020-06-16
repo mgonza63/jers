@@ -9,7 +9,7 @@ const ProductDefinition = (props) => {
       data-item-image={props.product.image}
       data-item-custom2-options="S|M|L"
       data-item-custom2-name="Tamaños"
-      data-item-url="https://jersmx.netlify.app/">
+      data-item-url="https://jersmx.netlify.app/tienda">
       Añadir al Carrito ${props.product.price}
     </button>
   )
