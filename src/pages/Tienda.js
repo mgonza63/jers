@@ -2,6 +2,7 @@ import React from 'react';
 
 import products from '../products.json';
 import ProductList from '../components/Product/ProductList';
+import { useState, useEffect } from 'react';
 
 class Shop extends React.Component {
     constructor(props) {
@@ -24,5 +25,6 @@ class Shop extends React.Component {
             
         )
     }
-}
+ }
+
 export default Shop;

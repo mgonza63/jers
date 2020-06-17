@@ -11,7 +11,7 @@ function SectionTwoTitle() {
             <div className="row d-flex justify-content-center">
                 <div class="card product">
                     <img class="card-img" src="../assets/img/product/jers-007-blue.jpeg" alt="Card image" />
-                    <AddToCart  data={{
+                    <AddToCart data={{
                         id: "ers-c01-01",
                         name: "JERS Tipografía Verde",
                         price: "240.00",
