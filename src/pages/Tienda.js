@@ -20,6 +20,7 @@ class Shop extends React.Component {
                     <h2>Nuestras Collecciones</h2>
                 </div>
                 <ProductList products={maleShirts} />
+                <div hidden id="snipcart" data-api-key="MjFjYzUwOTMtNDdmNC00NGNlLWIzMGItZTE2N2NkNjIyMGEzNjM3MjQ1MjM5OTQxNzkwMTkz" data-currency="mxn"></div>
 
             </div>
             

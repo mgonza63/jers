@@ -11,19 +11,6 @@ function SectionTwoTitle() {
             <div className="row d-flex justify-content-center">
                 <div class="card product">
                     <img class="card-img" src="../assets/img/product/jers-007-blue.jpeg" alt="Card image" />
-                    <AddToCart data={{
-                        id: "ers-c01-01",
-                        name: "JERS Tipografía Verde",
-                        price: "240.00",
-                        image: "../assets/img/product/jers-007-blue.jpeg",
-                        customFields:[{
-                            "name":"Tamaños",
-                            "options":"S|M|L",
-                            "type": "dropdown"}],
-                        url:"https://jersmx.netlify.app/tienda"
-                        }}>
-                        Añadir al Carrito $240.00
-                    </AddToCart>
                 </div>
                 <div class="card product">
                     <img class="card-img" src="../assets/img/product/jers-013-w-black.jpg" alt="Card image" />

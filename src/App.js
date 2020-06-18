@@ -23,12 +23,9 @@ function App() {
           {/* <Route path='/contact' component={Contact} /> */}
         </Switch>
       </div>
-      <div hidden id="snipcart" data-api-key="MjFjYzUwOTMtNDdmNC00NGNlLWIzMGItZTE2N2NkNjIyMGEzNjM3MjQ1MjM5OTQxNzkwMTkz" data-currency="mxn"></div>
-
-      <script src="https://cdn.snipcart.com/themes/v3.0.15/default/snipcart.js"></script>
-
       <Footer></Footer>
     </Router>
+
 
 
   );
